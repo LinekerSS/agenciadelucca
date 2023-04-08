@@ -1,0 +1,144 @@
+header .centro{max-width: 1205px;}
+.materialBaixado {position: relative;background: #24ba6b;font-family: 'AvenirNextforINTUIT';font-size: 17px;color: #fff;font-weight: 600;padding: 10px 20px;border-radius: 9px;line-height: 20px;z-index: 999;margin: 20px 0 0 0;}
+.materialBaixado span {position: absolute;left: -31px;color: #24ba6b;background: #fff;height: calc(100% + 4px);top: -3px;width: 44px;box-shadow: 0 0 10px rgb(0 0 0 / 20%);border-radius: 5px;display: flex;align-items: center;justify-content: center;font-size: 23px;display: none;}
+
+.videoPrincipal{background-image: url('../img/fundo.png');background-repeat-y: no-repeat;background-position: bottom;}
+	.videoPrincipal .centro{max-width: 1205px;max-height: 525px;margin: 0 auto;padding: 0px 15px 175px;text-align: center;}
+		.videoPrincipal .centro h2{margin-bottom: 7px;}
+			.videoPrincipal .centro h2 a{}
+			.videoPrincipal .centro h2 a:active,
+			.videoPrincipal .centro h2 a:link,
+			.videoPrincipal .centro h2 a:visited {display: flex;align-items: center;width: 625px;margin: 0 auto;transition: all 0.3s ease;}
+			.videoPrincipal .centro h2 img{width: 68px;margin: 2px 17px 0 2px;user-select: none;}
+					.videoPrincipal .centro h2 a em {display: flex;align-items: center;position: relative;font: 500 40px/45px 'AvenirNextforINTUIT';letter-spacing: -0.030em;margin-top: 9px;color: white;z-index: 1;}
+					.videoPrincipal .centro h2 a b {font: 400 24px/28px 'AvenirNextforINTUIT';color: #93deb4;margin: 0px 10px 0px 12px;}
+					.videoPrincipal .centro h2 a span{text-transform: uppercase;font: 500 12px/22px 'AvenirNextforINTUIT';letter-spacing: 0.040em;margin: 5px 0 0 22px;padding: 2px 23px 1px 21px;background: #53cea2;border-radius: 24px;z-index: -1;}
+
+.videoPrincipal article{position: relative;display: flex;border: 8px solid white;border-radius: 5px;box-shadow: 0px 0px 6px 6px #0000000d;z-index: 10;}
+.videoPrincipal article .videoVimeo{width: calc(100% - 354px);}
+	.videoPrincipal article figure {position: absolute;top: 50%;transform: translateY(-50%);left: -260px;box-shadow: 0px 4px 10px 10px #0000000d;transition: all 0.5s ease-out;}
+		.videoPrincipal article figure img {user-select: none;}
+	.videoPrincipal article .boxTexto {width:354px;text-align: left;padding: 37px 20px 40px 49px;background: white;}
+		.videoPrincipal article .boxTexto span.episodio {text-transform: uppercase;font: 700 14px/25px 'AvenirNextforINTUIT';letter-spacing: 0.020em;color: #2ca01c;transition: all 0.5s ease;}
+		.videoPrincipal article .boxTexto h3 {font: 500 25px/31px 'AvenirNextforINTUIT';letter-spacing: -0.020em;margin-bottom: 24px;margin-top: -3px;}
+			.videoPrincipal article .boxTexto p span {position: absolute;left: 1px;top: 1px;font-size: 21px;color: #c6c9cf;transition: all 0.3s ease;}
+			.videoPrincipal article .boxTexto p a:active,
+			.videoPrincipal article .boxTexto p a:link,
+			.videoPrincipal article .boxTexto p a:visited{display:block;font: 500 16px/21px 'AvenirNextforINTUIT';letter-spacing: -0.020em;position: relative;padding: 0 0 0 33px;color: #c3c4c6;transition: all 0.3s ease;}
+                .videoPrincipal article .boxTexto p:hover a{color:#2ca01c;}
+                .videoPrincipal article .boxTexto p:hover span{color:#2ca01c;}
+			.videoPrincipal.semEbook article .boxTexto p{ display: none;}
+
+.principal{}
+	.principal .centro{max-width: 1205px;margin: 0 auto;padding: 60px 23px 0 15px;display: flex;justify-content: space-between;}
+		.principal .centro .container{width: calc(100% - 495px);padding-top: 57px;}
+		
+			.principal .centro .container article{min-height: 140px;margin: 0 0 60px;}
+				.principal .centro .container article figure{float: left;width: 140px;height: 140px;margin-right: 35px;border-radius: 100%;box-shadow: 4px 4px 2px 0px #eeeff2;overflow: hidden; background: #f4f4f4;}
+				.principal .centro .container article figure img{width: 100%;user-select: none;}
+				.principal .centro .container article span{text-transform: uppercase;font: 700 14px/25px 'AvenirNextforINTUIT';letter-spacing: 0.020em;}
+				.principal .centro .container article h3{font: 500 35px/40px 'AvenirNextforINTUIT';letter-spacing: -0.040em;margin-bottom: 3px;color: #2ca01c;}
+				.principal .centro .container article:last-of-type h3{color: #68c207;}
+				.principal .centro .container article p{font: 400 17px/25px 'AvenirNextforINTUIT';letter-spacing: -0.010em;padding: 0 15px 0 175px;}
+
+		._1000 .principal.semEbook .centro .container{width:100%; padding-top: 57px;} 
+		._1000 .principal.semEbook .centro .container{width: 100%; padding-top: 57px; position: relative;}
+		._1000 .principal.semEbook .centro .container article{width: calc(100% - 495px);}
+		._1000 .principal.semEbook .links{ position: absolute; right: 0; top: 50px; width: 400px;}
+  
+.principal .links{display: flex;flex-wrap: wrap;justify-content: space-between;padding: 10px 9px 0 13px;}
+@media screen and (max-width: 1198px){ .principal .links{width: 480px;margin: 0 auto;justify-content: center;}}
+	.principal .links .caixa{position: relative;width: 300px;height: 185px;background: #f4f5f8;}
+	.principal .links .caixa.telegram{padding: 37px 0px 40px 55px;margin: 0 0 10px 0;}
+	.principal .links .caixa.telegram a:hover{filter:brightness(1.2);}
+	.principal .links .caixa.redesSociais{padding: 35px 0px 34px 57px;}
+	._1000 .principal .links .caixa.redesSociais.boxMaior{width: 100%; height: initial;}
+		.principal .links .caixa.redesSociais span.destaque{left: -18px;font-size: 21px;color: #393a3d;}
+		.principal .links .caixa ul li:nth-of-type(1) a:hover span{color: #168bef;}
+        .principal .links .caixa ul li:nth-of-type(2) a:hover span{color: #FF0000;}
+		.principal .links .caixa ul li:nth-of-type(3) a:hover span{color: #0A66C2;}
+		.principal .links .caixa.redesSociais h4{letter-spacing: -0.020em;}
+		.principal .links .caixa.redesSociais ul li a:hover{filter: initial;}
+		.principal .links .caixa.redesSociais ul li a span{color: #393a3d;}
+		.principal .links .caixa span.destaque{position: absolute;left: -24px;top: 29px;font-size: 21px;color: #37aee1;padding: 14px 16px 14px 10px;border-radius: 100%;background: white;}
+		.principal .links .caixa h4{font: 500 20px/24px 'AvenirNextforINTUIT';letter-spacing: -0.010em;}
+		.principal .links .caixa h4 b{color:#333435;font-weight: 600;letter-spacing: -0.030em;}
+			.principal .links .caixa.telegram h4 b{color: #2f9ece;}
+		.principal .links .caixa.telegram a{font: 500 16px/48px 'AvenirNextforINTUIT';display: block;width: 175px;height: 48px;margin-top: 10px;background: #37aee1;border-radius: 35px;text-align: center;color: white;word-spacing: 5px;transition: all 0.5s ease;}
+			.principal .links .caixa.telegram a span{}
+		.principal .links .caixa ul{display: flex;margin-top: 12px;}
+			.principal .links .caixa ul li{margin-right: 6px;}
+			.principal .links .caixa ul li a span{transition: all 0.3s ease;}
+			.principal .links .caixa ul li a{transition: all 0.3s ease;}
+				.principal .links .caixa ul li a:hover{filter: brightness(1.2);}
+					.principal .links .caixa ul li a span{font-size: 48px;}
+
+.principal.semEbook form{ display: none;}
+.principal form {width: 430px;max-height: 708px;background: #eceef1;padding: 53px 62px 30px;text-align: center;z-index: 1;}
+	.principal form span.logoQuick {}
+	.principal form p {font: 500 20px/26px 'AvenirNextforINTUIT';letter-spacing: -0.010em;margin-bottom: 30px;color: #1c1d1f;}
+		.principal form p b{text-transform: uppercase;font: 700 14px/25px 'AvenirNextforINTUIT';letter-spacing: 0.020em;color: #53b700;}
+	.principal form input, .principal form select{width: 100%;padding: 11px;border: 2px solid white;border-radius: 30px;text-align: center;margin-bottom: 8px;font: 500 16px/22px 'AvenirNextforINTUIT';letter-spacing: -0.020em;color: #1c1d1f;background: white;transition: all 0.3s ease;}
+	.principal form select{padding: 11px 30px;}
+	.principal form input:focus, .principal form select:focus{border: 2px solid #53b700;}
+	 
+	.principal form .btEnvia{display: block;padding: 20px;background: #393a3d;border-radius: 35px;font: 500 18px/20px 'AvenirNextforINTUIT';color: white; transition: all 0.3s ease; width: 100%; cursor: pointer;}
+        .principal .centro form .btEnvia:hover{background: #53b700;}
+
+    .principal form input[type='checkbox'] { width: 16px; height: 16px; margin: 8px 0 0 20px; float: left;}
+
+    .principal form p.textoTermos { float: right; width: calc(100% - 48px); font: 500 13px/15px 'AvenirNextforINTUIT'; color: #717277; padding: 7px 0 0px 0; text-align: left; letter-spacing: 0; margin-bottom: 15px;} 
+    .principal form p.textoTermos a:link,
+    .principal form p.textoTermos a:active,
+    .principal form p.textoTermos a:visited{ color: #444444; transition: all 0.5s ease;}
+        .principal form p.textoTermos a:hover{ text-decoration: underline; color: #53b700;} 
+
+    .principal form .formEnviando{width: 100%; padding: 11px; border-radius: 30px; text-align: center; margin-bottom: 8px; font: 500 18px/38px 'AvenirNextforINTUIT'; letter-spacing: -0.020em; color: #adadad; transition: all 0.3s ease; justify-content: center; background: #f1f1f1; display: none;}
+
+	.principal form label {display: flex;justify-content: center;align-items: center;margin-top: 17px;font: 500 13px/15px 'AvenirNextforINTUIT';font-style: italic;color: #b2b2b2;}
+		.principal form label span {font-size: 16px;margin-right: 8px;color: #d7d7d7;}
+
+main .centro{max-width: 1205px;}
+
+/* MOBILE */
+
+._320 .videoPrincipal{background: linear-gradient(0deg, #09c0a8,55%, #34ba48);}
+	._320 .videoPrincipal .centro{max-height: initial;max-width: 420px;padding: 0;}
+		._320 .videoPrincipal .centro h2{padding: 0 15px;}
+			._320 .videoPrincipal .centro h2 a{display: flex;justify-content: center;width: 100%;}
+				._320 .videoPrincipal .centro h2 a img{width: 75px;margin: 0;}
+				._320 .videoPrincipal .centro h2 a em{display: flex;flex-wrap: wrap;font: 500 40px/28px 'AvenirNextforINTUIT';padding: 24px 11px 28px 17px;letter-spacing: -0.030em;width: min-content;}
+				._320 .videoPrincipal .centro h2 a b{font-size: 23px;margin: -1px 0 0 10px;color: #99dda6;}
+				._320 .videoPrincipal .centro h2 a span{max-width: 220px;width: 100%;font: 500 11px/13px 'AvenirNextforINTUIT';letter-spacing: 0.060em;padding: 3px;background: #63cc7e;}
+		._320 .videoPrincipal .centro p{font: 400 18px/23px 'AvenirNextforINTUIT';margin: 15px auto 0;max-width: 385px;}
+
+._320 .videoPrincipal article{flex-direction: column;border: none;}
+	._320 .videoPrincipal article .videoVimeo{width: 100%}
+		._320 .videoPrincipal article .boxTexto{width: 100%;padding: 20px 20px;}
+		._320 .videoPrincipal article .boxTexto span{font: 700 13px/25px 'AvenirNextforINTUIT';}
+._320 .videoPrincipal article .boxTexto p span{font-size: 21px;}
+		._320 .videoPrincipal article .boxTexto h3{font: 500 18px/24px 'AvenirNextforINTUIT';}
+
+._320 .principal .centro{max-width: 420px;padding: 35px 15px;flex-wrap: wrap;}
+	._320 .principal .centro .container{width: 100%;padding: 0;}
+		._320 .principal .centro .container article{margin-bottom: 20px;}
+			._320 .principal .centro .container article figure{width: 100px;height: 100px;margin-right: 15px;}
+			._320 .principal .centro .container article span{font: 700 13px/25px 'AvenirNextforINTUIT';}
+			._320 .principal .centro .container article h3{font: 500 26px/29px 'AvenirNextforINTUIT';}
+
+			._320 .principal .centro .container article p{font: 400 14px/18px 'AvenirNextforINTUIT';letter-spacing: 0;padding: 0px 0px 0 115px;}
+		._320 .principal .centro form{width: 100%;max-height: 600px;padding: 40px 28px;margin-top:25px;box-shadow: 0px 4px 4px 0px #0000000d;}
+			._320 .principal .centro form p{font: 500 18px/23px 'AvenirNextforINTUIT';padding: 0;letter-spacing: -0.010em;margin-bottom: 22px;}
+			._320 .principal .centro form input{border: 2px solid #eceef1;margin-bottom: 10px;padding: 12px;font-style: italic;}
+				._320 .principal .centro form input:focus{border: 2px solid #53b700;}
+			._320 .principal .centro form label{margin-top: 11px;color: #b2b2b2;}
+			._320 .principal .centro form select{margin-top: 10px;font-style: italic;}
+
+._320 .principal .links{width: 100%;padding: 0;}
+	._320 .principal .links .caixa{width: 100%;min-height: 170px;padding: 35px 15px 30px 125px !important;}
+		._320 .principal .links .caixa h4{ font: 500 19px/22px 'AvenirNextforINTUIT';}
+		._320 .principal .links .caixa.telegram{}
+			._320 .principal .links .caixa.telegram h4{}
+			._320 .principal .links .caixa.telegram a{max-width: 200px;width: 100%;}
+			._320 .principal .links .caixa.redesSociais ul{margin-top: 10px;}
+			._320 .principal .links .caixa span.destaque{padding: 35px 30px 35px 30px;left: -10px;top: 50%;transform: translateY(-50%);font-size: 40px;border-radius: 0 40px 40px 0;color: #eceef1;}

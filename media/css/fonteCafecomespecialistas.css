@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-BoldIt.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+} 
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-Bold.woff2') format('woff2'), 
+        url('../media/fontes/AvenirNextforINTUIT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-Demi.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-Regular.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-MediumIt.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-MediumIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-Italic.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-Medium.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-Heavy.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-DemiIt.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-DemiIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-Thin.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextforINTUIT';
+    src: url('../media/fontes/AvenirNextforINTUIT-ThinIt.woff2') format('woff2'),
+        url('../media/fontes/AvenirNextforINTUIT-ThinIt.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'cafecomespecialistas';
+  src:  url('../media/fontes/cafecomespecialistas.eot?qgf9gg');
+  src:  url('../media/fontes/cafecomespecialistas.eot?qgf9gg#iefix') format('embedded-opentype'),
+    url('../media/fontes/cafecomespecialistas.woff2?qgf9gg') format('woff2'),
+    url('../media/fontes/cafecomespecialistas.ttf?qgf9gg') format('truetype'),
+    url('../media/fontes/cafecomespecialistas.woff?qgf9gg') format('woff'),
+    url('../media/fontes/cafecomespecialistas.svg?qgf9gg#cafecomespecialistas') format('svg');
+  font-weight: normal;
+  font-style: normal; 
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'league-gothic-condensed-italic';
+  src: url('../fontes/league-gothic-condensed-italic.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fontes/Montserrat-Regular.ttf');
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cafecomespecialistas' !important;
+  speak: never;
+  font-style: normal; 
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bolaYoutube:before {
+  content: "\e900";
+}
+.icon-bolaLinkedIn:before {
+  content: "\e901";
+}
+.icon-blogPDF:before {
+  content: "\e905";
+}
+.icon-bolaFace:before {
+  content: "\e906";
+}
+.icon-bolaInsta:before {
+  content: "\e907";
+}
+.icon-bolaTwitter:before {
+  content: "\e908";
+}
+.icon-capturaCadeado:before {
+  content: "\e909";
+}
+.icon-capturaEspecialista:before {
+  content: "\e90a";
+}
+.icon-capturaEstreia:before {
+  content: "\e90b";
+}
+.icon-facebook:before {
+  content: "\e90c";
+}
+.icon-linkedin:before {
+  content: "\e90d";
+}
+.icon-obrigadoCompartilhe:before {
+  content: "\e90e";
+}
+.icon-obrigadoSeguir:before {
+  content: "\e90f";
+}
+.icon-obrigadoTelegram:before {
+  content: "\e910";
+}
+.icon-twitter:before {
+  content: "\e911";
+}
+.icon-youtube:before {
+  content: "\e912";
+}

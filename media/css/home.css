@@ -1,0 +1,1396 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 100px
+  }
+.principal {
+    background-image: url(../img/185513521_l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(75vh - 86px);
+    align-items: center;
+}
+
+
+.principal .centro {
+    max-width: 1110px;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+.principal .centro2 {
+    max-width: 1110px;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+
+.principal .centro .texto {
+    flex: 1;
+    max-width: 50%;
+    padding: 30px 30px 30px 30px ;
+}
+
+.principal .centro .texto h2 {
+    width: 450px
+}
+
+.principal .centro .texto h2 a {
+    display: flex;
+    align-items: center
+}
+
+.principal .centro .texto h2 img {
+    width: 97px;
+    user-select: none
+}
+
+.principal .centro .texto h2 a:active,
+.principal .centro .texto h2 a:link,
+.principal .centro .texto h2 a:visited {
+    transition: all .3s ease
+}
+
+.principal .centro .texto h2 a em {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font: 500 57px/40px AvenirNextforINTUIT;
+    letter-spacing: -.030em;
+    padding: 20px 26px 39px 26px;
+    color: #fff;
+    z-index: 1
+}
+
+.principal .centro .texto h2 a b {
+    font-size: 34px;
+    letter-spacing: -.020em;
+    margin: -1px 0 0 12px;
+    color: #93deb4
+}
+
+.principal .centro .texto h2 a span {
+    position: absolute;
+    bottom: 0;
+    width: 311px;
+    text-transform: uppercase;
+    font: 500 14px/28px AvenirNextforINTUIT;
+    letter-spacing: .060em;
+    text-align: center;
+    background: linear-gradient(45deg, #60cd86, 45%, #59cd94);
+    border-radius: 24px;
+    z-index: -1
+}
+
+.principal .centro .texto h3 {
+    position: relative;
+    text-transform: uppercase;
+    font: 600 18px/20px AvenirNextforINTUIT;
+    letter-spacing: .020em;
+    margin: 60px 0 34px;
+    color: #fff
+}
+
+.principal .centro .texto h3:before {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    width: 85px;
+    height: 4px;
+    background: #62cc83;
+    border-radius: 2px
+}
+
+.principal .centro .texto h3:after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 90px;
+    width: 4px;
+    height: 4px;
+    background: #62cc83;
+    border-radius: 2px
+}
+
+.principal .centro .texto h3 em {
+    font-weight: 700;
+    color: #aeebcc
+}
+
+.principal .centro .texto p {
+    font-family: 'Montserrat-Regular';
+    padding-right: 65px;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+
+.secundario {
+    background-image: url(../img/96686892_l.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(75vh - 86px);
+    align-items: center;
+}
+
+
+.secundario .centro {
+    max-width: 1110px;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+.secundario .centro2 {
+    max-width: 1110px;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ 
+}
+
+.secundario .centro .texto {
+    flex: 1;
+    max-width: 50%;
+    padding: 30px 30px 30px 30px ;
+}
+
+.secundario .centro .texto h2 {
+    width: 450px
+}
+
+.secundario .centro .texto h2 a {
+    display: flex;
+    align-items: center
+}
+
+.secundario .centro .texto h2 img {
+    width: 97px;
+    user-select: none
+}
+
+.secundario .centro .texto h2 a:active,
+.secundario .centro .texto h2 a:link,
+.secundario .centro .texto h2 a:visited {
+    transition: all .3s ease
+}
+
+.secundario .centro .texto h2 a em {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font: 500 57px/40px AvenirNextforINTUIT;
+    letter-spacing: -.030em;
+    padding: 20px 26px 39px 26px;
+    color: #fff;
+    z-index: 1
+}
+
+.secundario .centro .texto h2 a b {
+    font-size: 34px;
+    letter-spacing: -.020em;
+    margin: -1px 0 0 12px;
+    color: #93deb4
+}
+
+.secundario .centro .texto h2 a span {
+    position: absolute;
+    bottom: 0;
+    width: 311px;
+    text-transform: uppercase;
+    font: 500 14px/28px AvenirNextforINTUIT;
+    letter-spacing: .060em;
+    text-align: center;
+    background: linear-gradient(45deg, #60cd86, 45%, #59cd94);
+    border-radius: 24px;
+    z-index: -1
+}
+
+.secundario .centro .texto h3 {
+    position: relative;
+    text-transform: uppercase;
+    font: 600 18px/20px AvenirNextforINTUIT;
+    letter-spacing: .020em;
+    margin: 60px 0 34px;
+    color: #fff
+}
+
+.secundario .centro .texto h3:before {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    width: 85px;
+    height: 4px;
+    background: #62cc83;
+    border-radius: 2px
+}
+
+.secundario .centro .texto h3:after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 90px;
+    width: 4px;
+    height: 4px;
+    background: #62cc83;
+    border-radius: 2px
+}
+
+.secundario .centro .texto h3 em {
+    font-weight: 700;
+    color: #aeebcc
+}
+
+.secundario .centro .texto p {
+    font-family: 'Montserrat-Regular';
+    padding-right: 65px;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+.container-button-banner{
+    display: flex;
+    padding-top: 0.5rem;
+    max-width: 450px;
+    font-size: 1rem;
+}
+.container-banner{
+    flex: 1;
+    background-color: #ffffffed;
+    color: #004c98;
+    font-family: 'Montserrat-Regular';
+    border-radius: 5px;
+    z-index: 10;
+    position: relative;
+	font-size: 20px;
+}
+.container-banner2{
+    flex: 1;
+    background-color: #004c98;
+    color: #ffff;
+    font-family: 'Montserrat-Regular';
+    border-radius: 5px;
+    z-index: 10;
+    position: relative;
+	font-size: 20px;
+}
+
+
+.container-speakers{
+    padding-bottom: 8rem;
+    padding-top:1rem;
+    background-color: #84bed6;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container-speakers2{
+    padding-bottom: 8rem;
+    padding-top:1rem;
+    background-color: #004c98;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container-speakers3{
+    padding-bottom: 8rem;
+    padding-top:1rem;
+    background-image: url(../img/96686892_l.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container-speakers4{
+    padding-bottom: 4rem;
+    padding-top:8rem;
+    background-image: url(../img/fundo-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-speakers__title{
+    text-align: center;
+    color: #fff !important;
+    font-family: 'league-gothic-condensed-italic'!important;
+	font-size: 70px !important;
+	letter-spacing: 2px !important;
+}
+.container-speakers__slider{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container-speakers__slider__display-slider{
+    position: relative;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container-speakers__slider__display-slider__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+.active-slider{
+    z-index: 1 !important;
+    opacity: 1 !important;
+}
+.display-slider__content-left{
+    min-width: 40%;
+    justify-content: flex-end;
+}
+.display-slider__content-left__orange-circle{
+    width: 250px;
+    height: 250px;
+    background-color: #c73d01;
+    border-radius: 50%;
+    border-color: #004c98;
+    border: #004c98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.display-slider__content-left__image{
+    width: 80%;
+}
+
+.display-slider__content-right{
+    flex: 1;
+    min-width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.display-slider__content-right p{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 20px;
+    font-family: 'Montserrat-Regular' !important;
+}
+.container-speakers__slider__dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.slider__dots__dot{
+    width: 7px;
+    height: 7px;
+    background-color: #00fee3;
+    border-radius: 50%;
+    cursor: pointer !important;
+    z-index: 5;
+    position: relative;
+    opacity: 0.5;
+}
+.dot-active{
+    opacity: 1 !important;
+}
+.container-speakers__slider__buton-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+    z-index: 999;
+}
+.container-video{
+    background-image: url(../img/images-websiteplanet/fundo-video1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.container-video__grid {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.container-video__grid__video{
+    flex: 1;
+}
+.container__grid__text{
+    font-family: 'Montserrat-Regular' !important;
+    flex: 1;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 25px;
+    text-align: center;
+
+}
+
+.container-video__title{
+    color: #fff !important;
+    margin: 0 !important;
+    padding: 0;
+    font-family: 'league-gothic-condensed-italic' !important;
+    text-align: center;
+	font-size: 95px !important;
+	letter-spacing: 2px !important;
+  }
+
+.container__youtube{
+    position: relative;
+    padding-top: 56.25%;
+}
+.container__youtube::after{
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 71px;
+    bottom: -20px;
+    right: -10px;
+    z-index: 9999;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+.container__youtube iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container__youtube2{
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.container__youtube__2::after {
+    position: absolute;
+    content: '';
+    width: 225px;
+    height: 50px;
+    bottom: 10px;
+    right: 887px;
+    z-index: 9999;
+    background-image: url(../img/images-websiteplanet/preenchimento-de-cor.png);
+    background-position: center;
+    background-size: cover;
+}
+.container__youtube2 iframe{
+    position: absolute;
+    top: 95px;
+    left: 100px;
+    width: 80%;
+    height: 80%;
+}
+.container-schedule{
+    background-image: url(../img/images-websiteplanet/fundo-programacao.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+}
+.container-schedule__title{
+    color: #fff !important;
+    margin: 0 !important;
+    padding: 0;
+    font-family: 'league-gothic-condensed-italic' !important;
+    text-align: center;
+	font-size: 70px !important;
+	letter-spacing: 2px !important;
+  }
+  
+
+.container-schedule__grid{
+    display: flex;
+    margin-top: 3rem;
+    gap: 20px;
+    position: relative;
+
+}
+.orange-lines{
+    position: absolute;
+    width: 3px;
+    height: 70%;
+    background-color: #fa763c;
+    top: 0;
+    left: calc(50% - 3px);
+}
+.orange-pointer-one{
+   position: absolute;
+   top:6px;
+   width: 90px;
+   height: 3px;
+   background: rgb(250,118,60);
+background: linear-gradient(90deg, rgba(250,118,60,1) 23%, rgba(250,118,60,0) 100%);
+   display: flex;
+   align-items: center;
+}
+.orange-pointer-two{
+    position: absolute;
+    bottom: 85%;
+    right: 0;
+    width: 90px;
+    height: 3px;
+    background: rgb(250,118,60);
+ background: linear-gradient(90deg, rgba(250,118,60,1) 23%, rgba(250,118,60,0) 100%);
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+ }
+ .orange-pointer-three{
+    position: absolute;
+    bottom: 60%;
+    width: 90px;
+    height: 3px;
+    background: rgb(250,118,60);
+ background: linear-gradient(90deg, rgba(250,118,60,1) 23%, rgba(250,118,60,0) 100%);
+    display: flex;
+    align-items: center;
+ }
+ .orange-pointer-four{
+   position: absolute;
+    bottom: 30%;
+    right: 0;
+    width: 90px;
+    height: 3px;
+    background: rgb(250,118,60);
+    background: linear-gradient(90deg, rgba(250,118,60,1) 23%, rgba(250,118,60,0) 100%);
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+ }
+ .orange-pointer-five{
+    position: absolute;
+    bottom: 0%;
+    width: 90px;
+    height: 3px;
+    background: rgb(250,118,60);
+    background: linear-gradient(90deg, rgba(250,118,60,1) 23%, rgba(250,118,60,0) 100%);
+    display: flex;
+    align-items: center;
+ }
+ 
+.orange-circle{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fa753c7a;
+    border-radius: 50%;
+    left: -13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orange-circle::after{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #fa753cb6;
+}
+.orange-circle::before{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #fa753c;
+}
+.container-schedule__grid__left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container-content-shedule{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+.container-content-shedule1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+.container-content-shedule1::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 400px;
+    right: 310px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+.container-content-shedule2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+.container-content-shedule2::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 170px;
+    right: 310px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+.container-content-shedule3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+.container-content-shedule3::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 300px;
+    right: 0px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+.container-content-shedule4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+.container-content-shedule4::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 70px;
+    right: 90px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+.container-content-shedule__image-box{
+    display: flex;
+}
+.container-content-shedule__image-box{
+    display: flex;
+}
+.container-content-shedule__image-box__orange-circle{
+    width: 150px;
+    height: 150px;
+    background-color: #c73d01;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-content-shedule__image-box__orange-circle img{
+ width: 95%;
+ border-radius: 50%;
+}
+.two-images .container-content-shedule__image-box__orange-circle:nth-child(1){
+  margin-right: -50px;
+}
+.container-content-shedule__text-box{
+    color: #fff;
+	font-family: 'Montserrat-Regular' !important;
+	font-size: 15px;
+}
+
+.container-schedule__grid__right{
+    flex: 1;
+    padding-left: 9rem;
+ 
+}
+.container-content-shedule__open{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+	font-family: 'Montserrat-Regular' !important;
+}
+.container-call-to-action{
+    background-image: url(../img/images-websiteplanet/fundo-inscrevase.jpg);
+}
+.container-call-to-action__grid{
+    display: flex;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-schedule__grid__content-left{
+    flex: 1;
+    text-align: left;
+    color: #fff;
+    font-size: 3rem;
+}
+.container-schedule__grid__content-left p{
+    line-height: 50px;
+    font-family: 'league-gothic-condensed-italic';
+}
+.container-schedule__grid__content-right{
+    flex: 1;
+    padding: 20px;
+	text-align: center;
+}
+.btn-call-to-action{
+    flex: 1;
+    background-image: linear-gradient(to right, #c63d01 , #f75a15);
+    color: #fff;
+    padding: 1rem 0.5rem;
+    font-family: 'Montserrat-Regular';
+    border-radius: 5px;
+    width: 65%;
+	font-size: 20px;
+}
+.btn-call-to-action-{
+    flex: 1;
+    background-image: linear-gradient(to right, #c63d01 , #f75a15);
+    color: #fff;
+    padding: 1rem 0.5rem;
+    font-family: 'Montserrat-Regular';
+    border-radius: 5px;
+    width: 70%;
+	font-size: 20px;
+}
+.container-sponsors__title{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'league-gothic-condensed-italic';
+    color: #fff; 
+	font-size: 70px !important;
+    letter-spacing: 2px !important;
+	padding-bottom: 5rem;
+}
+.container-sponsors{
+    background-image: url(../img/images-websiteplanet/fundo-patrocinadores.jpg);
+    padding-bottom: 9rem;
+    padding-top: 5rem;
+    background-position: center;
+    background-size: cover;
+}
+.container-sponsors__grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-sponsors__grid img{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+	margin: 1rem;
+}
+.container-organizers{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.container-organizers__grid {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 30px;
+    
+}
+.container-organizers__grid2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.container-organizers__title{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'league-gothic-condensed-italic';
+    color: #176981; 
+    margin-bottom: 4rem;
+	font-size: 70px !important;
+    letter-spacing: 2px !important;
+}
+.container-organizers__grid img{
+    max-width: 200px;
+}
+
+.popup-form{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.content-form{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-popup{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.principal .centro form label span {
+    font-size: 16px;
+    margin-right: 8px;
+    color: #d7d7d7
+}
+
+._320 header .centro {
+    max-width: 420px;
+    margin: 0 auto
+}
+
+._320 .principal {
+    background: linear-gradient(0deg, #09c0a8, 55%, #34ba48)
+
+}
+
+._320 .principal .centro {
+    max-width: 420px;
+    max-height: unset;
+    flex-wrap: wrap;
+    padding: 0 17px 30px;
+    justify-content: center
+}
+
+._320 .principal .centro .texto {
+    width: 100%;
+    padding: 0;
+    text-align: center
+}
+
+._320 .principal .centro .texto h2 {
+    width: 100%
+}
+
+._320 .principal .centro .texto h2 a {
+    justify-content: center
+}
+
+._320 .principal .centro .texto h2 a img {
+    width: 75px
+}
+
+._320 .principal .centro .texto h2 a em {
+    font: 500 40px/28px AvenirNextforINTUIT;
+    padding: 24px 11px 28px 17px;
+    letter-spacing: -.030em;
+    width: min-content
+}
+
+._320 .principal .centro .texto h2 a b {
+    font-size: 23px;
+    margin: -1px 0 0 10px;
+    color: #99dda6
+}
+
+._320 .principal .centro .texto h2 a span {
+    width: 220px;
+    font: 500 11px/13px AvenirNextforINTUIT;
+    letter-spacing: .060em;
+    padding: 3px;
+    background: #63cc7e
+}
+
+._320 .principal .centro .texto h3 {
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 0;
+    font: 600 16px/19px AvenirNextforINTUIT
+}
+
+._320 .principal .centro .texto h3:before {
+    content: unset
+}
+
+._320 .principal .centro .texto h3:after {
+    content: unset
+}
+
+._320 .principal .centro .texto p {
+    display: none
+}
+
+._320 .principal .centro form {
+    width: 100%;
+    height: unset;
+    margin: 3px 0 0;
+    padding: 26px 28px 38px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 #0000000d
+}
+
+._320 .principal .centro form p {
+    font: 500 18px/23px AvenirNextforINTUIT;
+    padding: 0;
+    letter-spacing: -.010em;
+    margin-bottom: 22px
+}
+
+._320 .principal .centro form label {
+    margin-top: 11px;
+    color: #b2b2b2
+}
+
+._320 .principal .centro form p.textoTermos {
+    font: 500 13px/15px AvenirNextforINTUIT;
+    padding: 7px 0 0 0;
+    margin-bottom: 15px
+}
+.rcorners1 {
+  border-radius: 15px;
+  background: #fff;
+  padding: 20px; 
+  width: 250px;
+  height: 160px;
+  box-shadow: 0px 10px 10px #1e1e1e;
+}
+@media(max-width:600px){
+	.container-sponsors__grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+	.container-organizers__grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+	.container__youtube2 iframe {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 90%;
+    height: 90%;
+}
+	.container-video__title {
+    color: #fff !important;
+    margin: 0 !important;
+    padding: 0;
+    font-family: 'league-gothic-condensed-italic' !important;
+    text-align: center;
+    font-size: 48px !important;
+    letter-spacing: 5px !important;
+}
+	.btn-call-to-action {
+    flex: 1;
+    background-image: linear-gradient(to right, #c63d01 , #f75a15);
+    color: #fff;
+    padding: 1rem 0.5rem;
+    font-family: 'Montserrat-Regular';
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+}
+	.container-video {
+    background-color:#004c98;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    display: table-row;
+}
+	.container-schedule__title {
+    color: #fff !important;
+    margin: 0 !important;
+    padding: 0;
+    font-family: 'league-gothic-condensed-italic' !important;
+    text-align: center;
+    font-size: 55px !important;
+    letter-spacing: 2px !important;
+}
+	
+.container-content-shedule1 {
+    display: block; 
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-content-shedule2 {
+    display: block;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-content-shedule3 {
+    display: block;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-content-shedule4 {
+    display: block;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-content-shedule5 {
+    display: block;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-content-shedule__image-box {
+    display: flex;
+    padding-bottom: 40px;
+}
+	.container-schedule__grid {
+    display: block;
+    margin-top: 3rem;
+    gap: 20px;
+    position: relative;
+}
+	.orange-lines {
+		display: none;
+	}
+	.container-content-shedule1::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 550px;
+    right: 220px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+	.container-content-shedule2::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 185px;
+    right: 215px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+	.container-content-shedule3::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 560px;
+    right: 205px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+	.container-content-shedule4::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 190px;
+    right: 200px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+	.container-schedule__grid__right {
+    flex: 1;
+    padding-left: 0rem;
+}
+	.container-content-shedule {
+    display: none;
+}
+	.container-call-to-action__grid {
+    display: grid;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    align-items: center;
+    gap: 20px;
+}
+	.container-schedule__grid__content-left {
+		text-align: center;
+}
+	.container-video__grid {
+    display: grid;
+	padding-bottom: 60px;
+    padding-top: 80px;
+}
+	.display-slider__content-left {
+    min-width: 40%;
+    display: block;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+	.container-speakers__slider__display-slider__content {
+    display: grid;
+}
+	.container-speakers__title {
+    padding-bottom: 50px;
+}
+	.principal .centro {
+    flex-direction: column;
+}
+	.principal .centro .texto {
+    flex: 1;
+    max-width: 100%;
+    padding: 50px 0 50px;
+    height: 100%;
+}
+	.container-speakers__slider__display-slider {
+    position: relative;
+    min-height: 40vh;
+	}
+	.principal {
+    background-position: unset;
+    background-image: url(../img/images-websiteplanet/fundo--mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(60vh - 100px);
+    align-items: center;
+    margin-top: 130px;
+}
+
+	header .centro {
+    max-width: 1110px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
+	header .centro h1 {
+    width: 100px;
+    padding-bottom: 15px;
+}
+	header ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    font-family: 'league-gothic-condensed-italic';
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}
+	.scarcity-container {
+    display: none;
+}
+}
+
+@media (min-width: 700px) and (max-width:1024px){
+	.rcorners1 {
+    border-radius: 15px;
+    background: #fff;
+    padding: 20px;
+    width: 220px;
+    height: 145px;
+    box-shadow: 0px 10px 10px #1e1e1e;
+}
+	.container-organizers__grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+}
+	main .centro h2 {
+    font: 400 45px/40px 'AvenirNextforINTUIT';
+    letter-spacing: -0.040em;
+    margin: 73px 0;
+    color: #393a3d;
+    line-height: 95px;
+}
+	.container-video__title {
+    color: #fff !important;
+    margin: 0 !important;
+    padding: 0;
+    font-family: 'league-gothic-condensed-italic' !important;
+    text-align: center;
+    font-size: 75px !important;
+    letter-spacing: 2px !important;
+}
+	.container__youtube2 iframe {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    width: 80%;
+    height: 80%;
+}
+	.container-schedule__grid {
+    display: block;
+    margin-top: 3rem;
+    gap: 20px;
+    position: relative;
+}
+	.container-content-shedule {
+    display: none;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-schedule__grid__right {
+    flex: 1;
+    padding-left: inherit;
+}
+	.orange-lines{
+		display: none;
+	}
+	.container-content-shedule1 {
+    display: block;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-content-shedule2 {
+    display: block;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-content-shedule3 {
+    display: block;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-content-shedule4 {
+    display: block;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 5rem;
+}
+	.container-content-shedule__image-box {
+    display: flex;
+    padding-bottom: 30px;
+}
+	.container-content-shedule1::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 495px;
+    right: 580px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+	.container-content-shedule2::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 155px;
+    right: 580px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+	.container-content-shedule3::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 520px;
+    right: 570px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+	.container-content-shedule4::after {
+    content: '';
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    bottom: 180px;
+    right: 570px;
+    background-image: url(../img/images-websiteplanet/aviao-azul.png);
+    background-position: center;
+    background-size: cover;
+}
+	.container-call-to-action__grid {
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    align-items: center;
+    gap: 20px;
+}
+	.container-video__grid {
+    display: grid;
+    gap: 60px;
+    align-items: center;
+}
+	.principal .centro .texto {
+    flex: 1;
+    max-width: 100%;
+    padding: 50px 0 50px;
+    height: 100%;
+}
+	.principal {
+    background-image: url(../img/images-websiteplanet/fundo-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: calc(55vh - 76px);
+    align-items: center;
+    margin-top: 130px;
+    background-position: unset;
+}
+	
+	header .centro {
+    max-width: 1110px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+	header .centro h1 {
+    width: 100px;
+    padding-bottom: 15px;
+}
+	header ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    font-family: 'league-gothic-condensed-italic';
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}
+}

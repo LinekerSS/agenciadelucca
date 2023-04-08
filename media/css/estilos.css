@@ -1,0 +1,1225 @@
+/*NOVO RESET 08/2020*/
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video,
+details,
+summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+main,
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section,
+details,
+summary,
+img {
+	display: block;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+img,
+object,
+embed {
+	max-width: 100%;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+th {
+	font-weight: bold;
+	vertical-align: bottom;
+}
+
+td {
+	font-weight: normal;
+	vertical-align: top;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input,
+select {
+	vertical-align: middle;
+}
+
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	white-space: pre-line;
+	word-wrap: break-word;
+}
+
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	outline: none;
+}
+
+input,
+button,
+textarea,
+select {
+	*font-size: 100%;
+}
+
+fieldset,
+input,
+button,
+textarea,
+select {
+	border: none;
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	font-size: inherit;
+	font: 100%;
+}
+
+small {
+	font-size: 85%;
+}
+
+strong {
+	font-weight: bold;
+}
+
+td,
+td img {
+	vertical-align: top;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+pre,
+code,
+kbd,
+samp {
+	font-family: monospace, sans-serif;
+}
+
+.balance-text {
+	text-wrap: balanced;
+}
+
+::selection {
+	background: #333333;
+	color: #fff;
+}
+
+::-webkit-selection {
+	background: #333333;
+	color: #fff;
+}
+
+::-moz-selection {
+	background: #333333;
+	color: #fff;
+}
+
+body {
+	color: #2c2d30;
+	font-family: 'AvenirNextforINTUIT';
+	font-size: 13px;
+	line-height: 20px;
+	background: #ffffff;
+	height: 100%;
+	width: 100%;
+}
+
+body.login {
+	font: normal 14px 'AvenirNextforINTUIT';
+	color: #536363;
+}
+
+
+/* CSS PARA SOBREESCREVER A JANELA DE COOKIE DA RD - 30/11/2020 */
+div[aria-label="cookieconsent"] {
+	background: rgb(57 58 61) !important;
+	width: 88% !important;
+	left: 50% !important;
+	transform: translateX(-50%) !important;
+	font: 500 13px 'Open Sans';
+	bottom: 10px !important;
+	border-radius: 5px !important;
+	padding: 10px 12px 10px !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 17px -7px !important;
+	border-bottom: solid 3px #171819 !important;
+	flex-wrap: wrap !important;
+}
+
+div[aria-label="cookieconsent"] .cc-compliance {
+	padding-top: 0 !important;
+}
+
+div[aria-label="cookieconsent"] .cc-link:link,
+div[aria-label="cookieconsent"] .cc-link:active,
+div[aria-label="cookieconsent"] .cc-link:visited {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: underline;
+	margin: 0 auto;
+}
+
+.cc-banner .cc-message {
+	display: initial !important;
+}
+
+.cc-compliance .cc-btn.cc-DISMISS,
+.cc-compliance .cc-btn.cc-DISMISS:link,
+.cc-compliance .cc-btn.cc-DISMISS:active,
+.cc-compliance .cc-btn.cc-DISMISS:visited {
+	min-width: 90px !important;
+	width: 110px !important;
+	background-color: #1d7f3c !important;
+	transition: all 0.3s ease !important;
+	border-radius: 3px !important;
+	color: #ffffff !important;
+	display: block !important;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.cc-compliance .cc-btn.cc-DISMISS:hover {
+	background: #1fbd78 !important;
+}
+
+._320 div[aria-label="cookieconsent"] {
+	bottom: 00 !important;
+	width: 100% !important;
+	border-radius: 0px !important;
+	border-bottom: none !important;
+	box-shadow: none !important;
+	font-size: 12px !important;
+	line-height: 15px !important;
+	display: block !important;
+}
+
+._320 .cc-compliance .cc-btn.cc-DISMISS,
+._320 .cc-compliance .cc-btn.cc-DISMISS:link,
+._320 .cc-compliance .cc-btn.cc-DISMISS:active,
+._320 .cc-compliance .cc-btn.cc-DISMISS:visited {
+	margin-top: 9px !important;
+	margin-bottom: 4px !important;
+}
+
+@keyframes dots-1 {
+	from {
+		opacity: 0;
+	}
+
+	20% {
+		opacity: 1;
+	}
+}
+
+@keyframes dots-2 {
+	from {
+		opacity: 0;
+	}
+
+	40% {
+		opacity: 1;
+	}
+}
+
+@keyframes dots-3 {
+	from {
+		opacity: 0;
+	}
+
+	60% {
+		opacity: 1;
+	}
+}
+
+@keyframes dots-4 {
+	from {
+		opacity: 0;
+	}
+
+	80% {
+		opacity: 1;
+	}
+}
+
+@keyframes dots-5 {
+	from {
+		opacity: 0;
+	}
+
+	95% {
+		opacity: 1;
+	}
+}
+
+.dots {
+	text-align: center;
+	display: block;
+}
+
+.dots span {
+	animation: dots-1 1s infinite steps(1);
+}
+
+.dots span:first-child+span {
+	animation-name: dots-2;
+}
+
+.dots span:first-child+span+span {
+	animation-name: dots-3;
+}
+
+.dots span:first-child+span+span+span {
+	animation-name: dots-4;
+}
+
+.dots span:first-child+span+span+span+span {
+	animation-name: dots-5;
+}
+
+.clear {
+	clear: both;
+}
+
+/*RESPONSIVIDADE*/
+._320 .mobile {
+	display: block !important;
+}
+
+._320 .desktop {
+	display: none !important;
+}
+
+._1000 .mobile {
+	display: none !important;
+}
+
+._1000 .desktop {
+	display: block !important;
+}
+
+/* ATENCAO VALIDAR */
+.atencao {
+	background: #000000;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	border-top: dotted 1px #c4b785;
+	display: none;
+	cursor: pointer;
+	z-index: 1000000000000;
+	max-height: 120px;
+}
+
+.atencao .h1 {
+	font-size: 16px;
+	color: #c4b785;
+	font-family: 'Playfair Display';
+	letter-spacing: 0.050em;
+	margin: 0px 0px 2px 0px;
+	font-weight: 500;
+}
+
+.atencao p {
+	font-size: 12px;
+	color: #c4b785;
+	line-height: 18px;
+}
+
+.atencao p span {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 130px;
+	top: 0;
+	z-index: 99999;
+	display: flex;
+   align-items: center;
+   background-image: url(../img/images-websiteplanet/fundo-header.jpeg);
+   background-size: cover;
+}
+.scarcity-container{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+	font-family: Montserrat-Regular;
+}
+.scarcity-container__display{
+	border: 1px solid #fff;
+	display: flex;
+	padding: 1rem;
+	border-radius: 10px;
+
+}
+.scarcity-container__label{ 
+	color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+
+}
+.scarcity-container__display__number-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	color: #fff;
+}
+header ul li a{
+ color: #fff;
+ text-transform: uppercase;
+ padding: 0.5rem;
+ font-family: 'league-gothic-condensed-italic';
+ font-size: 3.2rem;
+ letter-spacing: 1.3px;
+ cursor: pointer;
+}
+
+header .centro {
+	width: 100%;
+	max-width: 420px;
+	justify-content: center;
+}
+
+header .centro h1 {
+	width: 170px;
+}
+
+header .centro ul {
+	display: none;
+}
+
+header .centro {
+	max-width: 1110px;
+	height: 55px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px 0 0;
+}
+
+header .centro h1 {
+	width: 160px;
+}
+
+header .centro h1 a img {
+	user-select: none;
+}
+
+header .centro ul {
+	display: flex;
+	align-items: center;
+}
+
+header .centro ul li {
+	position: relative;
+	margin-left: 8px;
+	margin-top: 5px;
+}
+
+header .centro ul li a {
+	position: relative;
+}
+
+header .centro ul li a span {
+	transition: all 0.3s ease;
+}
+
+header .centro ul li a:hover span {
+	color: #2c9f1c;
+}
+
+header .centro ul li a:hover:after {
+	height: 17px;
+}
+
+header .centro ul li a:hover:before {
+	height: 20px;
+}
+
+header .centro ul li a span {
+	font-size: 24px;
+	color: #babec5;
+}
+
+main {}
+
+main .centro {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+main .centro h2 {
+	font: 400 45px/40px 'AvenirNextforINTUIT';
+	letter-spacing: -0.040em;
+	margin: 73px 0;
+	color: #393a3d;
+	line-height: 50px;
+}
+
+main .centro h2 em {
+	text-transform: uppercase;
+	font: 700 13px/25px 'AvenirNextforINTUIT';
+	letter-spacing: 0.020em;
+	margin-left: 8px;
+	color: #d4d7dc;
+}
+
+main .centro article {
+	position: relative;
+	width: calc(100% - 265px);
+	min-height: 438px;
+	margin: 0 0 80px auto;
+	display: flex;
+	background: #f4f5f8;
+}
+
+main .centro article:nth-child(odd) {
+	margin: 0 auto 80px 0;
+}
+
+main .centro article:nth-child(odd) figure {
+	left: unset;
+	right: -260px;
+}
+
+main .centro article:nth-child(odd) .boxTexto {
+	padding: 45px 145px 45px 82px;
+}
+
+main .centro article:nth-child(odd) figure span.data {
+	right: unset;
+	left: -25px;
+}
+
+main .centro article figure {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -260px;
+	box-shadow: 0px 4px 10px 10px #0000000d;
+	transition: all 0.5s ease-out;
+}
+
+main .centro article figure img {
+	user-select: none;
+}
+
+main .centro article figure span.data {
+	position: absolute;
+	right: -25px;
+	bottom: -5px;
+	width: 90px;
+	height: 90px;
+	padding: 22px 0;
+	border-radius: 100%;
+	background: #53b700;
+	color: white;
+	text-align: center;
+}
+
+main .centro article figure span.data em {
+	display: block;
+	font: 400 37px/29px 'AvenirNextforINTUIT';
+}
+
+main .centro article figure span.data b {
+	text-transform: uppercase;
+	font: 700 14px/20px 'AvenirNextforINTUIT';
+}
+
+main .centro article .boxTexto {
+	width: 100%;
+	padding: 45px 70px 45px 160px;
+}
+
+main .centro article .boxTexto span.episodio {
+	text-transform: uppercase;
+	font: 700 14px/25px 'AvenirNextforINTUIT';
+	letter-spacing: 0.020em;
+	color: #2ca01c;
+	transition: all 0.5s ease;
+}
+
+main .centro article .boxTexto h3 {
+	font: 500 26px/30px 'AvenirNextforINTUIT';
+	letter-spacing: -0.020em;
+	padding-right: 25px;
+	margin-bottom: 30px;
+}
+
+main .centro article .boxTexto p {
+	position: relative;
+	margin: 25px 0 0px;
+	padding: 0 0 0 35px;
+}
+
+main .centro article .boxTexto p span {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	font-size: 21px;
+	color: #c6c9cf;
+}
+
+main .centro article .boxTexto p label {
+	display: block;
+	text-transform: uppercase;
+	font: 700 13px/17px 'AvenirNextforINTUIT';
+	color: #2ca01c;
+	transition: all 0.5s ease;
+	padding-bottom: 5px;
+}
+
+main .centro article .boxTexto p b {
+	font: 500 18px/23px 'AvenirNextforINTUIT';
+	letter-spacing: -0.010em;
+}
+
+main .centro article .boxTexto p em {
+	font-weight: 500;
+	color: #777980;
+}
+
+main .centro article .boxTexto .botao {
+	position: relative;
+	height: 50px;
+	margin-top: 30px;
+}
+
+main .centro article .boxTexto p i {
+	display: block;
+	font: 500 15px/20px 'AvenirNextforINTUIT';
+	font-style: italic;
+	color: #777980;
+}
+
+main .centro article .boxTexto a:active,
+main .centro article .boxTexto a:link,
+main .centro article .boxTexto a:visited {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 240px;
+	height: 100%;
+	background: #393a3d;
+	border-radius: 35px;
+	font: 500 16px/20px 'AvenirNextforINTUIT';
+	color: white;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+main .centro article .boxTexto a:hover {
+	background: #53b700;
+}
+
+main .centro article .boxTexto p.indisponivel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 2px solid #d0d3d9;
+	font: 500 16px/20px 'AvenirNextforINTUIT';
+	color: #aaadb2;
+	letter-spacing: -0.3px;
+	width: 240px;
+	height: 100%;
+	padding: 14px;
+	border-radius: 35px;
+	text-align: center;
+	transition: all 0.3s ease;
+	margin: 0;
+}
+
+main .centro article .boxTexto p.indisponivel b {
+	font: unset;
+}
+
+main .centro article .boxTexto p.indisponivel i {
+	display: unset;
+	font: unset;
+	color: #87898c;
+}
+
+main .centro .sobre {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 0 94px;
+	z-index: 1;
+}
+
+main .centro .sobre:hover p b:before {
+	width: 175px;
+}
+
+main .centro .sobre:hover h2 {
+	filter: brightness(0.8);
+}
+
+main .centro .sobre h2 {
+	width: 400px;
+	margin: 0;
+	color: #d2d4d9;
+	transition: all 0.5s ease;
+}
+
+main .centro .sobre figure {
+	position: absolute;
+	bottom: 0px;
+	left: 160px;
+	transition: all 0.5s ease-out;
+}
+
+main .centro .sobre figure img {
+	height: 218px;
+	user-select: none;
+}
+
+main .centro .sobre p {
+	position: relative;
+	width: calc(100% - 540px);
+	font: 400 16px/26px 'AvenirNextforINTUIT';
+}
+
+main .centro .sobre p b {
+	display: block;
+	font: 500 35px/40px 'AvenirNextforINTUIT';
+	letter-spacing: -0.040em;
+	margin-bottom: 5px;
+	color: #2ca01c;
+}
+
+main .centro .sobre p b:before {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	width: 0;
+	height: 4px;
+	background: #2ca01c;
+	transition: all 0.5s ease;
+}
+
+main .centro .sobre p em {
+	font: 400 16px/26px 'AvenirNextforINTUIT';
+}
+
+footer {
+	position: relative;
+	background: url("../img/fundoFooter.gif");
+	background-position: top;
+	z-index: 99;
+}
+
+footer .centro {
+	max-width: 1110px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 70px 15px 80px 15px;
+	color: white;
+}
+
+footer .centro .boxTexto {
+	width: calc(100% - 285px);
+	padding-top: 5px;
+}
+
+footer .centro .boxTexto figure {
+	width: 210px;
+}
+
+footer .centro .boxTexto figure img {
+	user-select: none;
+}
+
+footer .centro .boxTexto h3 {
+	font: 500 20px/20px 'AvenirNextforINTUIT';
+	margin: 33px 0 32px;
+}
+
+footer .centro .boxTexto p {
+	font: 400 16px/27px 'AvenirNextforINTUIT';
+}
+
+footer .centro .parceria {
+	display: block;
+	width: 190px;
+	height: 207px;
+	background: white;
+	border-radius: 5px;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+footer .centro .parceria:hover {
+	margin-top: -5px;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px #0000005c;
+}
+
+footer .centro .parceria:hover em {
+	color: white;
+	border-radius: 7px 7px 0 0;
+	background: #0893AC;
+}
+
+footer .centro .parceria em {
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 15px;
+	border-bottom: 1px solid #ebebeb;
+	color: #9c9c9e;
+	transition: all 0.3s ease;
+}
+
+footer .centro .parceria img {
+	width: 115px;
+	margin: 0 auto;
+	padding: 23px 0;
+	user-select: none;
+}
+
+.copyright {
+	padding: 26px;
+	background-color: #fff;
+}
+
+.copyright .centro {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 15px;
+	text-align: center;
+	color: #000;
+}
+
+.copyright .centro p {
+	font: 400 13px/16px 'AvenirNextforINTUIT';
+	letter-spacing: -0.020em;
+	color: #616162;
+	font-size: 25px;
+}
+
+.itemMobile {
+	display: none;
+}
+
+/* MOBILE */
+
+._320 .itemMobile {
+	display: block;
+}
+
+._320 header .centro {
+	max-width: 420px;
+	margin: 0 auto;
+}
+
+._320 main {}
+
+._320 main .centro {
+	max-width: 420px;
+	text-align: center;
+	padding: 0 15px;
+}
+
+._320 main .centro h2 {
+	margin: 35px 0 30px;
+	font: 400 35px/40px 'AvenirNextforINTUIT';
+	letter-spacing: -0.020em;
+}
+
+._320 main .centro h2 em {
+	display: block;
+	margin: -4px 0 0 0;
+}
+
+._320 main .centro article {
+	width: 100%;
+	margin: 0 auto;
+	flex-direction: column;
+	background: unset;
+}
+
+._320 main .centro article:nth-child(odd) figure {
+	right: unset;
+}
+
+._320 main .centro article:nth-child(odd) figure span.data {
+	left: unset;
+}
+
+._320 main .centro article figure {
+	width: 275px;
+	margin: 0 auto;
+	position: relative;
+	transform: unset;
+	top: unset;
+	left: unset;
+}
+
+._320 main .centro article figure span.data {
+	bottom: -35px;
+	right: -19px;
+	padding: 23px 0;
+}
+
+._320 main .centro article .boxTexto {
+	margin-top: -75px;
+	padding: 115px 27px 50px 32px;
+	margin-bottom: 40px;
+	text-align: left;
+	background: #f4f5f8;
+}
+
+._320 main .centro article .boxTexto span.episodio {
+	font: 700 13px/25px 'AvenirNextforINTUIT';
+}
+
+._320 main .centro article .boxTexto h3 {
+	font: 500 18px/24px 'AvenirNextforINTUIT';
+	margin-top: -4px;
+	margin-bottom: 0px;
+	letter-spacing: -0.020em;
+	padding: 0;
+}
+
+._320 main .centro article .boxTexto p {
+	margin-top: 20px;
+	padding: 0 0 0 37px;
+}
+
+._320 main .centro article .boxTexto p b {
+	letter-spacing: -0.010em;
+}
+
+._320 main .centro article .boxTexto p label {
+	font: 700 13px/16px 'AvenirNextforINTUIT';
+}
+
+._320 main .centro article .boxTexto p em {
+	font: 500 19px/22px 'AvenirNextforINTUIT';
+}
+
+._320 main .centro article .boxTexto p i {
+	font: 500 14px/18px 'AvenirNextforINTUIT';
+	font-style: italic;
+	margin-top: 3px;
+	padding-right: 5px;
+}
+
+._320 main .centro article .boxTexto .botao {
+	margin-top: 20px;
+	height: 45px;
+}
+
+._320 main .centro article .boxTexto a:active,
+._320 main .centro article .boxTexto a:link,
+._320 main .centro article .boxTexto a:visited {
+	width: 100%;
+}
+
+._320 main .centro article .boxTexto p.indisponivel {
+	width: 100%;
+	margin: 0;
+	padding: 11px;
+}
+
+._320 main .centro article .boxTexto p.indisponivel i {
+	font: unset;
+	padding: 0;
+	margin: 0;
+}
+
+._320 main .centro .sobre {
+	flex-wrap: wrap;
+	padding: 0px 0 80px;
+}
+
+._320 main .centro .sobre:hover h2 {
+	filter: initial;
+}
+
+._320 main .centro .sobre h2 {
+	max-width: 300px;
+	margin: 0 auto 27px;
+	font: 400 35px/30px 'AvenirNextforINTUIT';
+	letter-spacing: -0.040em;
+}
+
+._320 main .centro .sobre figure {
+	display: none;
+}
+
+._320 main .centro .sobre figure.itemMobile {
+	display: block;
+	bottom: 0;
+	left: initial;
+	right: -15px;
+}
+
+._320 main .centro .sobre p {
+	width: 100%;
+	text-align: left;
+	padding: 0 0 0 20px;
+}
+
+._320 main .centro .sobre p b {
+	margin-bottom: 10px;
+}
+
+._320 main .centro .sobre p em {
+	display: block;
+	line-height: 23px;
+	padding-right: 80px;
+}
+
+._320 main .centro .sobre:hover p b:before {
+	content: initial;
+}
+
+._320 footer {
+	background-repeat: initial;
+}
+
+._320 footer .centro {
+	max-width: 420px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	padding: 35px 15px 30px;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+._320 footer .centro .boxTexto {
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+}
+
+._320 footer .centro .boxTexto figure {
+	margin: 0 auto;
+}
+
+._320 footer .centro .boxTexto h3 {
+	font: 500 20px/24px 'AvenirNextforINTUIT';
+	margin: 29px auto 7px;
+	color: #6b6b6e;
+	max-width: 313px;
+}
+
+._320 footer .centro .boxTexto p {
+	display: none;
+}
+
+._320 footer .centro .boxTexto p.itemMobile {
+	display: block;
+	font: 400 16px/25px 'AvenirNextforINTUIT';
+	max-width: 319px;
+	margin: 0 auto;
+}
+
+._320 footer .centro .parceria {
+	margin: 35px auto;
+	height: 204px;
+}
+
+._320 footer .centro .parceria em {
+	padding: 16px;
+}
+
+._320 .copyright .centro {
+	max-width: 330px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+._320 .copyright .centro p {
+	line-height: 17px;
+}
